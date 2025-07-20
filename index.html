@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RestCheck · Inteligência para Restaurantes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --laranja: #F76E11;
+      --azul: #203562;
+      --cinza: #F2F2F2;
+      --verde: #36C66B;
+      --preto: #1C1C1C;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--cinza);
+      color: var(--preto);
+    }
+    header {
+      background-color: var(--verde);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5em;
+      margin: 0;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: var(--azul);
+      font-family: 'Poppins', sans-serif;
+      border-left: 6px solid var(--laranja);
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✅ ";
+    }
+    .cta {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .cta a {
+      background-color: var(--laranja);
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 8px;
+      font-family: 'DM Sans', sans-serif;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+    }
+    footer {
+      background-color: var(--azul);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .planos table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .planos th, .planos td {
+      border: 1px solid var(--azul);
+      padding: 10px;
+      text-align: left;
+    }
+    .planos th {
+      background-color: var(--laranja);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo-restcheck.png" alt="Logo RestCheck" />
+    <h1>RestCheck · Inteligência para Restaurantes</h1>
+    <p>Transforme seus pedidos em previsões reais com IA</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>❓ Por que usar RestCheck?</h2>
+      <ul>
+        <li>Preveja sua demanda por prato e dia</li>
+        <li>Evite desperdícios e compras desnecessárias</li>
+        <li>Descubra os itens mais lucrativos</li>
+        <li>Exporte relatórios em Excel para sua equipe</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📊 O que você recebe</h2>
+      <ul>
+        <li>Gráficos interativos de vendas</li>
+        <li>Tabela de previsões por prato</li>
+        <li>Comparação entre pedidos reais e previstos</li>
+        <li>Exportação em Excel (.xlsx)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎁 Teste gratuito</h2>
+      <p>Envie seu arquivo <strong>.csv</strong> com colunas <code>data</code>, <code>prato</code> e <code>quantidade</code> e receba seu primeiro relatório com IA sem custo.</p>
+    </section>
+
+    <section class="planos">
+      <h2>💰 Planos</h2>
+      <table>
+        <tr>
+          <th>Plano</th>
+          <th>Preço</th>
+          <th>Inclui</th>
+        </tr>
+        <tr>
+          <td>Avulso</td>
+          <td>R$ 97</td>
+          <td>1 relatório preditivo personalizado</td>
+        </tr>
+        <tr>
+          <td>Mensal</td>
+          <td>R$ 49/mês</td>
+          <td>Acesso contínuo ao painel com upload de dados</td>
+        </tr>
+      </table>
+    </section>
+
+    <div class="cta">
+      <a href="https://restcheck.com.br/teste">📁 Quero testar agora</a>
+    </div>
+
+    <section>
+      <h2>👨‍🍳 Quem criou?</h2>
+      <p>Desenvolvido por <a href="https://github.com/gabrielsf476" target="_blank">Gabriel Silva de Freitas</a> com apoio do Copilot.  
+      Feito com Python + IA para servir melhor, prever mais e lucrar com inteligência.</p>
+    </section>
+
+    <section>
+      <h2>📞 Contato</h2>
+      <p>
+        📬 E-mail: contato@restcheck.com.br<br/>
+        📱 WhatsApp: (21) 98243-8356<br/>
+        📷 Instagram: <a href="https://instagram.com/restcheckapp" target="_blank">@restcheckapp</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    RestCheck · Pare de adivinhar. Comece a prever.  
+  </footer>
+</body>
+</html>
